@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+
+/* Top banner */
+
+.header{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    height: 809px;
+    width: 100%;
+}
+
+
+.banner-container{
+    color: white;
+    padding: 216px 230px 166px 876px;
+    text-align: end;
+}
+
+.title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.description{
+    margin-bottom: 36px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 45, 51);
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* previous failuers styles */
+
+.container{
+    margin: 200px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-container{
+    padding-top: 326px;
+}
+
+.container-title{
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.container-description{
+    color: rgb(77, 73, 73);
+    margin-bottom: 36px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+ul li{
+    color: rgb(77, 73, 73);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+/*  */
+
+
+/* my plans styles */
+
+.my-plans{
+    margin: 200px 200px;
+}
+
+.plans-title{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* bonus call section */
+
+.call-container{
+    background-image: url("/images/watch.png");
+    background: linear-gradient(to top right, blue, red);
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    margin: 230px;
+    height: 300px;
+    border-radius: 20px;
+    padding-top: 59px;
+    padding-left: 64px;
+}
+
+.cotact-title{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: rgb(31, 31, 34);
+    height: 577px;
+}
+
+.container-ft{
+    display: flex;
+    justify-content: space-between;
+    margin: 230px;
+    padding: 130px 0;
+}
